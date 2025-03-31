@@ -32,7 +32,7 @@ This is a **RESTful API** built with **Node.js, Express, MongoDB**, and **JWT au
 ### **1️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/ShaswataG/binbag-backend-assignment.git
-cd your-repo-name
+cd binbag-backend-assignment
 ```
 
 ### **2️⃣ Install Dependencies**
