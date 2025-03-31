@@ -1,15 +1,12 @@
-const ErrorHandler = require("../utils/errorHandler");
+import ErrorHandler from "../utils/errorHandler.js";
 
 const errorMiddleware = (err, req, res, next) => {
-    let { statusCode, message } = err;
-
-    // Default to 500 if no status code is set
-    if (!statusCode) statusCode = 500;
-
+    const statusCode = err.status || 500;
     res.status(statusCode).json({
         success: false,
-        message,
+        message: err.message || "Internal Server Error",
     });
 };
 
 export default errorMiddleware;
+
