@@ -12,6 +12,10 @@ This is a **RESTful API** built with **Node.js, Express, MongoDB**, and **JWT au
 
 ---
 
+[Postman documentation](https://documenter.getpostman.com/view/33724097/2sB2cRC4Bo)
+
+---
+
 ## 🛠 Tech Stack
 
 - **Backend:** Node.js, Express.js
